@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html,
+body {
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px; }
+
+.buy-now {
+  margin-left: 210px;
+  width: 200px;
+  height: 90px;
+  background-color: white;
+  border: 1px solid transparent;
+  border-color: #630101;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #630101;
+  cursor: pointer;
+  text-decoration: none; }
+
+.site-button {
+  padding: 10px 25px;
+  background-color: white;
+  text-decoration: none;
+  color: #630101;
+  margin-left: 45px; }
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 1280px;
+  height: 100px;
+  margin-left: 80px; }
+  nav .top {
+    width: 224px;
+    height: 55px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 20px; }
+  nav .link-wrapper {
+    width: 550px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    margin-left: 750px; }
+    nav .link-wrapper a {
+      text-decoration: none;
+      color: black; }
+    nav .link-wrapper .log .login-button {
+      padding: 10px 35px;
+      background-color: #ffd972;
+      border-radius: 250px;
+      text-decoration: none;
+      color: black; }
+
+.home {
+  width: 1280px;
+  height: 800px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(242, 92, 84, 0.5)), to(rgba(242, 92, 84, 0.5))), url(../images/hero.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(242, 92, 84, 0.5), rgba(242, 92, 84, 0.5)), url(../images/hero.jpg);
+  background-image: -o-linear-gradient(left, rgba(242, 92, 84, 0.5), rgba(242, 92, 84, 0.5)), url(../images/hero.jpg);
+  background-image: linear-gradient(to right, rgba(242, 92, 84, 0.5), rgba(242, 92, 84, 0.5)), url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 90px; }
+  .home .yellow {
+    position: relative;
+    height: 357px;
+    width: 357px;
+    background-color: #ffd972;
+    border-radius: 50%; }
+    .home .yellow h1 {
+      margin-top: 80px;
+      font-size: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+    .home .yellow p {
+      height: 80px;
+      width: 166px;
+      font-size: 16px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      margin-left: 100px; }
+  .home .pink {
+    position: absolute;
+    height: 167px;
+    width: 167px;
+    background-color: #fcbcb8;
+    border-radius: 50%;
+    margin-left: 220px;
+    margin-bottom: 350px; }
+    .home .pink p {
+      width: 105px;
+      height: 37px;
+      font-size: 12px;
+      margin-top: 40px;
+      margin-left: 35px; }
+
+.browse {
+  width: 1280px;
+  height: 800px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(167, 232, 189, 0.5)), to(rgba(167, 232, 189, 0.5))), url(../images/recipe-hero.jpg);
+  background-image: -webkit-linear-gradient(left, rgba(167, 232, 189, 0.5), rgba(167, 232, 189, 0.5)), url(../images/recipe-hero.jpg);
+  background-image: -o-linear-gradient(left, rgba(167, 232, 189, 0.5), rgba(167, 232, 189, 0.5)), url(../images/recipe-hero.jpg);
+  background-image: linear-gradient(to right, rgba(167, 232, 189, 0.5), rgba(167, 232, 189, 0.5)), url(../images/recipe-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 90px; }
+  .browse .head {
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    padding-left: 125px; }
+  .browse .one {
+    height: 263px;
+    width: 1200px;
+    margin-top: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-left: 40px;
+    padding-left: 30px; }
+    .browse .one .pizza {
+      width: 550px;
+      height: 263px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .browse .one .pizza .pizza-img {
+        width: 300px;
+        height: 263px;
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(167, 232, 189, 0)), to(rgba(167, 232, 189, 0))), url(../images/recipe-pizza.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(167, 232, 189, 0), rgba(167, 232, 189, 0)), url(../images/recipe-pizza.jpg);
+        background-image: -o-linear-gradient(left, rgba(167, 232, 189, 0), rgba(167, 232, 189, 0)), url(../images/recipe-pizza.jpg);
+        background-image: linear-gradient(to right, rgba(167, 232, 189, 0), rgba(167, 232, 189, 0)), url(../images/recipe-pizza.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5%; }
+      .browse .one .pizza .pizza-text {
+        width: 224px;
+        height: 263px;
+        background-color: white;
+        border-radius: 5%;
+        padding-left: 45px;
+        padding-top: 30px; }
+        .browse .one .pizza .pizza-text h1 {
+          font-size: 18px; }
+        .browse .one .pizza .pizza-text h1:after {
+          content: "";
+          display: block;
+          width: 130px;
+          border-bottom: 2px solid black; }
+        .browse .one .pizza .pizza-text p {
+          font-size: 11px;
+          width: 140px;
+          height: 55px; }
+      .browse .one .pizza .ext {
+        width: 120px;
+        height: 63px;
+        margin-top: 40px; }
+        .browse .one .pizza .ext img {
+          height: 2em; }
+    .browse .one .burger {
+      width: 550px;
+      height: 263px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .browse .one .burger .burger-img {
+        width: 300px;
+        height: 263px;
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(167, 232, 189, 0)), to(rgba(167, 232, 189, 0))), url(../images/recipe-burger.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(167, 232, 189, 0), rgba(167, 232, 189, 0)), url(../images/recipe-burger.jpg);
+        background-image: -o-linear-gradient(left, rgba(167, 232, 189, 0), rgba(167, 232, 189, 0)), url(../images/recipe-burger.jpg);
+        background-image: linear-gradient(to right, rgba(167, 232, 189, 0), rgba(167, 232, 189, 0)), url(../images/recipe-burger.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5%; }
+      .browse .one .burger .burger-text {
+        width: 224px;
+        height: 263px;
+        background-color: white;
+        border-radius: 5%;
+        padding-left: 45px;
+        padding-top: 30px; }
+        .browse .one .burger .burger-text h1 {
+          font-size: 18px; }
+        .browse .one .burger .burger-text h1:after {
+          content: "";
+          display: block;
+          width: 130px;
+          border-bottom: 2px solid black; }
+        .browse .one .burger .burger-text p {
+          font-size: 10px;
+          width: 140px;
+          height: 55px; }
+      .browse .one .burger .ext {
+        width: 120px;
+        height: 63px;
+        margin-top: 40px; }
+        .browse .one .burger .ext img {
+          height: 2em; }
+  .browse .two {
+    height: 263px;
+    width: 1200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-left: 30px; }
+    .browse .two .biryani {
+      width: 550px;
+      height: 263px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .browse .two .biryani .biryani-img {
+        width: 300px;
+        height: 263px;
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(167, 232, 189, 0)), to(rgba(167, 232, 189, 0))), url(../images/recipe-pilaf.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(167, 232, 189, 0), rgba(167, 232, 189, 0)), url(../images/recipe-pilaf.jpg);
+        background-image: -o-linear-gradient(left, rgba(167, 232, 189, 0), rgba(167, 232, 189, 0)), url(../images/recipe-pilaf.jpg);
+        background-image: linear-gradient(to right, rgba(167, 232, 189, 0), rgba(167, 232, 189, 0)), url(../images/recipe-pilaf.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5%; }
+      .browse .two .biryani .biryani-text {
+        width: 224px;
+        height: 263px;
+        background-color: white;
+        border-radius: 5%;
+        padding-left: 45px;
+        padding-top: 30px; }
+        .browse .two .biryani .biryani-text h1 {
+          font-size: 18px; }
+        .browse .two .biryani .biryani-text h1:after {
+          content: "";
+          display: block;
+          width: 130px;
+          border-bottom: 2px solid black; }
+        .browse .two .biryani .biryani-text p {
+          font-size: 11px;
+          width: 140px;
+          height: 55px; }
+      .browse .two .biryani .ext {
+        width: 120px;
+        height: 63px;
+        margin-top: 40px; }
+        .browse .two .biryani .ext img {
+          height: 2em; }
+    .browse .two .mein {
+      width: 550px;
+      height: 263px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      .browse .two .mein .mein-img {
+        width: 300px;
+        height: 263px;
+        background-image: -webkit-gradient(linear, left top, right top, from(rgba(167, 232, 189, 0)), to(rgba(167, 232, 189, 0))), url(../images/recipe-chowmein.jpg);
+        background-image: -webkit-linear-gradient(left, rgba(167, 232, 189, 0), rgba(167, 232, 189, 0)), url(../images/recipe-chowmein.jpg);
+        background-image: -o-linear-gradient(left, rgba(167, 232, 189, 0), rgba(167, 232, 189, 0)), url(../images/recipe-chowmein.jpg);
+        background-image: linear-gradient(to right, rgba(167, 232, 189, 0), rgba(167, 232, 189, 0)), url(../images/recipe-chowmein.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5%; }
+      .browse .two .mein .mein-text {
+        width: 224px;
+        height: 263px;
+        background-color: white;
+        border-radius: 5%;
+        padding-left: 45px;
+        padding-top: 30px; }
+        .browse .two .mein .mein-text h1 {
+          font-size: 18px; }
+        .browse .two .mein .mein-text h1:after {
+          content: "";
+          display: block;
+          width: 130px;
+          border-bottom: 2px solid black; }
+        .browse .two .mein .mein-text p {
+          font-size: 11px;
+          width: 140px;
+          height: 55px; }
+      .browse .two .mein .ext {
+        width: 120px;
+        height: 63px;
+        margin-top: 40px; }
+        .browse .two .mein .ext img {
+          height: 2em; }
+
+footer {
+  height: 100px;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: -80px;
+  margin-left: 105px; }
+  footer span {
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #393939; }
+  footer .links a {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    color: #393939;
+    text-decoration: none;
+    padding: 10px; }
+  footer .social {
+    font-size: 22px;
+    width: 140px;
+    color: #393939;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    padding-right: 40px; }

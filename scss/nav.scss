@@ -1,0 +1,41 @@
+nav {
+  // background-color: darkseagreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1280px;
+  height: 100px;
+  margin-left: 80px;
+
+  .top {
+    width: 224px;
+    height: 55px;
+    //background-color: aqua;
+    display: flex;
+    //align-items: center;
+    //justify-content: center;
+    padding-top: 20px;
+  }
+
+  .link-wrapper {
+    width: 550px;
+    //background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 750px;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    .log {
+      .login-button {
+        padding: 10px 35px;
+        background-color: #ffd972;
+        border-radius: 250px;
+        text-decoration: none;
+        color: black;
+        //margin-left: 1200px;
+      }
+    }
+  }
+}

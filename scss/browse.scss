@@ -1,0 +1,260 @@
+.browse {
+  width: 1280px;
+  height: 800px;
+  background-image: linear-gradient(
+      to right,
+      rgba(#a7e8bd, 0.5),
+      rgba(#a7e8bd, 0.5)
+    ),
+    url(../images/recipe-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 90px;
+  .head {
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    padding-left: 125px;
+  }
+  .one {
+    height: 263px;
+    width: 1200px;
+    margin-top: 80px;
+    //background-color: gold;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    padding-left: 30px;
+    .pizza {
+      width: 550px;
+      height: 263px;
+      //background-color: aquamarine;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .pizza-img {
+        width: 300px;
+        height: 263px;
+        //background-color: bisque;
+        background-image: linear-gradient(
+            to right,
+            rgba(#a7e8bd, 0),
+            rgba(#a7e8bd, 0)
+          ),
+          url(../images/recipe-pizza.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5%;
+      }
+      .pizza-text {
+        width: 224px;
+        height: 263px;
+        background-color: white;
+        border-radius: 5%;
+        padding-left: 45px;
+        padding-top: 30px;
+        h1 {
+          font-size: 18px;
+        }
+        h1:after {
+          content: "";
+          display: block;
+          width: 130px;
+          border-bottom: 2px solid black;
+        }
+        p {
+          //padding-bottom: 20px;
+          font-size: 11px;
+          width: 140px;
+          height: 55px;
+        }
+      }
+      .ext {
+        width: 120px;
+        height: 63px;
+        //background-color: bisque;
+        margin-top: 40px;
+        img {
+          height: 2em;
+        }
+      }
+    }
+    .burger {
+      width: 550px;
+      height: 263px;
+      //background-color: aquamarine;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .burger-img {
+        width: 300px;
+        height: 263px;
+        //background-color: bisque;
+        background-image: linear-gradient(
+            to right,
+            rgba(#a7e8bd, 0),
+            rgba(#a7e8bd, 0)
+          ),
+          url(../images/recipe-burger.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5%;
+      }
+      .burger-text {
+        width: 224px;
+        height: 263px;
+        background-color: white;
+        border-radius: 5%;
+        padding-left: 45px;
+        padding-top: 30px;
+        h1 {
+          font-size: 18px;
+        }
+        h1:after {
+          content: "";
+          display: block;
+          width: 130px;
+          border-bottom: 2px solid black;
+        }
+        p {
+          //padding-bottom: 20px;
+          font-size: 10px;
+          width: 140px;
+          height: 55px;
+        }
+      }
+      .ext {
+        width: 120px;
+        height: 63px;
+        //background-color: bisque;
+        margin-top: 40px;
+        img {
+          height: 2em;
+        }
+      }
+    }
+  }
+  .two {
+    height: 263px;
+    width: 1200px;
+    //background-color: gold;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    padding-left: 30px;
+    .biryani {
+      width: 550px;
+      height: 263px;
+      //background-color: aquamarine;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .biryani-img {
+        width: 300px;
+        height: 263px;
+        //background-color: bisque;
+        background-image: linear-gradient(
+            to right,
+            rgba(#a7e8bd, 0),
+            rgba(#a7e8bd, 0)
+          ),
+          url(../images/recipe-pilaf.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5%;
+      }
+      .biryani-text {
+        width: 224px;
+        height: 263px;
+        background-color: white;
+        border-radius: 5%;
+        padding-left: 45px;
+        padding-top: 30px;
+        h1 {
+          font-size: 18px;
+        }
+        h1:after {
+          content: "";
+          display: block;
+          width: 130px;
+          border-bottom: 2px solid black;
+        }
+        p {
+          //padding-bottom: 20px;
+          font-size: 11px;
+          width: 140px;
+          height: 55px;
+        }
+      }
+      .ext {
+        width: 120px;
+        height: 63px;
+        //background-color: bisque;
+        margin-top: 40px;
+        img {
+          height: 2em;
+        }
+      }
+    }
+    .mein {
+      width: 550px;
+      height: 263px;
+      //background-color: aquamarine;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .mein-img {
+        width: 300px;
+        height: 263px;
+        //background-color: bisque;
+        background-image: linear-gradient(
+            to right,
+            rgba(#a7e8bd, 0),
+            rgba(#a7e8bd, 0)
+          ),
+          url(../images/recipe-chowmein.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5%;
+      }
+      .mein-text {
+        width: 224px;
+        height: 263px;
+        background-color: white;
+        border-radius: 5%;
+        padding-left: 45px;
+        padding-top: 30px;
+        h1 {
+          font-size: 18px;
+        }
+        h1:after {
+          content: "";
+          display: block;
+          width: 130px;
+          border-bottom: 2px solid black;
+        }
+        p {
+          //padding-bottom: 20px;
+          font-size: 11px;
+          width: 140px;
+          height: 55px;
+        }
+      }
+      .ext {
+        width: 120px;
+        height: 63px;
+        //background-color: bisque;
+        margin-top: 40px;
+        img {
+          height: 2em;
+        }
+      }
+    }
+  }
+}
